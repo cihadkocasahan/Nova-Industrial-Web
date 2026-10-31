@@ -1,7 +1,7 @@
 {
-  "name": "nova-industrial-web",
+  "name": "nova-agro-web",
   "version": "1.0.0",
-  "description": "NOVA INDUSTRIAL Web Application - Full Stack (Frontend + Backend)",
+  "description": "Nova Agro — İleri AgTech & Ziraat Mühendisliği Web Platformu (React + Express + MySQL + Docker)",
   "type": "module",
   "private": true,
   "engines": {
@@ -36,7 +36,9 @@
     "clean:all": "npm run clean && powershell -Command \"Remove-Item -Recurse -Force -ErrorAction SilentlyContinue node_modules, package-lock.json\""
   },
   "keywords": [
-    "nova_industrial",
+    "nova_agro",
+    "agtech",
+    "precision_agriculture",
     "react",
     "express",
     "typescript",
@@ -45,7 +47,7 @@
     "vite",
     "fullstack"
   ],
-  "author": "NOVA INDUSTRIAL Team",
+  "author": "Cihad Kocasahan",
   "license": "MIT",
   "dependencies": {
     "@types/multer": "^2.0.0",

@@ -1,5 +1,8 @@
 # 🌱 NOVA AGRO — İleri AgTech & Ziraat Mühendisliği Web Portalı
 
+> **Portfolyo Projesi** — [Cihad Kocasahan](https://github.com/cihadkocasahan) tarafından geliştirilmiştir.  
+> Gerçek dünya endüstriyel/AgTech web platformu: Full-stack mimari, mock fallback katmanı, kapsamlı E2E test paketi ve Docker orkestrasyonu bir arada.
+
 [![Build Status](https://img.shields.io/badge/E2E%20Tests-23%2F23%20PASS%20(100%25)-15803d?style=for-the-badge&logo=checkmarx&logoColor=white)](#-kapsamlı-e2e-test-ve-kalite-güvencesi)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
