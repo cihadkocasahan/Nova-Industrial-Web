@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60">
+  <defs>
+    <!-- AgTech Green Gradients -->
+    <linearGradient id="nova-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15803d" />
+      <stop offset="100%" stop-color="#16a34a" />
+    </linearGradient>
+    <linearGradient id="agro-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#84cc16" />
+    </linearGradient>
+    <linearGradient id="leaf-left" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#15803d" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+    <linearGradient id="leaf-right" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#84cc16" />
+    </linearGradient>
+    <filter id="subtle-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Agricultural Drone & Precision Sprout Emblem -->
+  <g transform="translate(6, 4)">
+    <!-- Precision Field Grid / Telemetry Ring -->
+    <circle cx="26" cy="26" r="22" fill="none" stroke="url(#agro-gradient)" stroke-width="1.2" stroke-dasharray="3, 3" opacity="0.6" />
+    <line x1="26" y1="2" x2="26" y2="6" stroke="#16a34a" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="26" y1="46" x2="26" y2="50" stroke="#16a34a" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="2" y1="26" x2="6" y2="26" stroke="#16a34a" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="46" y1="26" x2="50" y2="26" stroke="#16a34a" stroke-width="1.5" stroke-linecap="round" />
+
+    <!-- Drone Quadcopter X-Arms -->
+    <line x1="26" y1="26" x2="14" y2="14" stroke="#15803d" stroke-width="2.2" stroke-linecap="round" />
+    <line x1="26" y1="26" x2="38" y2="14" stroke="#15803d" stroke-width="2.2" stroke-linecap="round" />
+    <line x1="26" y1="26" x2="38" y2="38" stroke="#15803d" stroke-width="2.2" stroke-linecap="round" />
+    <line x1="26" y1="26" x2="14" y2="38" stroke="#15803d" stroke-width="2.2" stroke-linecap="round" />
+
+    <!-- Rotor Hubs & Precision Blades -->
+    <!-- Top-Left Rotor -->
+    <circle cx="14" cy="14" r="5" fill="none" stroke="#84cc16" stroke-width="1.4" />
+    <circle cx="14" cy="14" r="2" fill="#16a34a" />
+    <!-- Top-Right Rotor -->
+    <circle cx="38" cy="14" r="5" fill="none" stroke="#84cc16" stroke-width="1.4" />
+    <circle cx="38" cy="14" r="2" fill="#16a34a" />
+    <!-- Bottom-Right Rotor -->
+    <circle cx="38" cy="38" r="5" fill="none" stroke="#84cc16" stroke-width="1.4" />
+    <circle cx="38" cy="38" r="2" fill="#16a34a" />
+    <!-- Bottom-Left Rotor -->
+    <circle cx="14" cy="38" r="5" fill="none" stroke="#84cc16" stroke-width="1.4" />
+    <circle cx="14" cy="38" r="2" fill="#16a34a" />
+
+    <!-- Center Agricultural Sprout (Organic Growth) -->
+    <!-- Left Leaf -->
+    <path d="M 26,29 C 22,23 18,17 20,11 C 25,11 27,18 26,29 Z" fill="url(#leaf-left)" />
+    <!-- Right Leaf -->
+    <path d="M 26,29 C 28,21 34,15 37,9 C 38,17 33,24 26,29 Z" fill="url(#leaf-right)" />
+    <!-- Central Sensor Stem & Base Pod -->
+    <line x1="26" y1="29" x2="26" y2="17" stroke="#15803d" stroke-width="1.2" stroke-linecap="round" />
+    <circle cx="26" cy="30" r="2.5" fill="#84cc16" stroke="#15803d" stroke-width="1" filter="url(#subtle-glow)" />
+  </g>
+
+  <!-- Brand Typography -->
+  <!-- 'NOVA' in bold AgTech green with contrast definition -->
+  <text x="68" y="34" font-family="'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="900" fill="url(#nova-gradient)" letter-spacing="1.5" paint-order="stroke fill" stroke="rgba(255,255,255,0.4)" stroke-width="0.8">NOVA</text>
+  
+  <!-- 'AGRO' in vibrant AgTech lime-green -->
+  <text x="146" y="34" font-family="'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="900" fill="url(#agro-gradient)" letter-spacing="1.5" paint-order="stroke fill" stroke="rgba(255,255,255,0.4)" stroke-width="0.8">AGRO</text>
+  
+  <!-- Subtitle Tagline -->
+  <text x="69" y="48" font-family="'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#15803d" letter-spacing="3.2" paint-order="stroke fill" stroke="rgba(255,255,255,0.3)" stroke-width="0.5">AGTECH &amp; ZİRAAT MÜHENDİSLİĞİ</text>
+</svg>

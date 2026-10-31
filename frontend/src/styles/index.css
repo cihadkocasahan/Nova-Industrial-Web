@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', 'Noto Sans', sans-serif;
+  line-height: 1.6;
+  color: var(--neutral-800);
+  background-color: var(--neutral-50);
+  padding-top: 75px; /* Fixed header için padding */
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 95px; /* Header yüksekliği + ekstra offset */
+}
+
+/* Smooth scroll için özel offset */
+:target {
+  scroll-margin-top: 95px;
+}
+
+/* Section elementleri için scroll margin */
+section[id] {
+  scroll-margin-top: 95px;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Main element için padding ayarı (responsive) */
+main {
+  padding-top: 0;
+}
+
+/* Mobile için body padding ayarı */
+@media (max-width: 768px) {
+body {
+  padding-top: 85px; /* Mobile header yüksekliği için daha fazla padding */
+}
+  
+  html {
+    scroll-padding-top: 100px;
+  }
+  
+  :target {
+    scroll-margin-top: 100px;
+  }
+  
+  section[id] {
+    scroll-margin-top: 100px;
+  }
+}
+
+/* Spin animation for loading icons */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

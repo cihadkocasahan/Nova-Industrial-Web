@@ -1,0 +1,136 @@
+{
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Hata oluştu",
+    "success": "Başarılı",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "add": "Ekle",
+    "search": "Ara",
+    "filter": "Filtrele",
+    "close": "Kapat",
+    "readMore": "Devamını Oku",
+    "learnMore": "Daha Fazla Bilgi",
+    "contactUs": "İletişime Geçin",
+    "viewDetails": "Detayları Gör"
+  },
+  "header": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetlerimiz",
+    "projects": "Projelerimiz",
+    "articles": "Haberler",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
+  },
+  "footer": {
+    "companyName": "Nova Agro",
+    "description": "İleri AgTech çözümleri, zirai drone teknolojileri, akıllı sulama ve modern sera mühendisliği.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "services": "Hizmetlerimiz",
+    "projects": "Projelerimiz",
+    "contact": "İletişim",
+    "contactInfo": "İletişim Bilgileri",
+    "address": "Lorem Ipsum Mah. Teknoloji Cad. No: 123/A, Kadıköy / İstanbul",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "followUs": "Bizi Takip Edin",
+    "allRightsReserved": "Tüm hakları saklıdır",
+    "copyright": "© {{year}} Nova Agro. Tüm hakları saklıdır."
+  },
+  "home": {
+    "hero": {
+      "title": "Nova Agro | İleri AgTech & Ziraat Mühendisliği",
+      "subtitle": "Zirai drone ilaçlama, hassas tarım, toprak analizi ve sera otomasyonunda öncü AgTech çözümleri",
+      "cta": "İletişime Geçin"
+    },
+    "services": {
+      "title": "Hizmetlerimiz",
+      "subtitle": "Yüksek verimlilik sağlayan modern ziraat ve hassas tarım mühendisliği hizmetlerimiz"
+    },
+    "projects": {
+      "title": "Projelerimiz",
+      "subtitle": "Tamamladığımız başarılı projeler",
+      "viewAll": "Tümünü Gör",
+      "readMore": "Devamını Oku"
+    },
+    "brands": {
+      "title": "Markalar & Partnerler",
+      "subtitle": "Projelerimizde kullandığımız güvenilir marka ve partnerlerimiz"
+    },
+    "articles": {
+      "title": "Haberler & Duyurular",
+      "subtitle": "Sektörden son haberler ve duyurularımız",
+      "readMore": "Devamını Oku",
+      "publishedOn": "Yayın Tarihi"
+    },
+    "contact": {
+      "title": "İletişim",
+      "subtitle": "Bize ulaşın, size yardımcı olmaktan mutluluk duyarız",
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "subject": "Konu",
+      "message": "Mesaj",
+      "send": "Gönder",
+      "sending": "Gönderiliyor...",
+      "success": "Mesajınız başarıyla gönderildi!",
+      "error": "Mesaj gönderilirken bir hata oluştu."
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Bizimle iletişime geçin",
+    "form": {
+      "name": "Ad Soyad",
+      "namePlaceholder": "Adınızı ve soyadınızı girin",
+      "email": "E-posta",
+      "emailPlaceholder": "E-posta adresinizi girin",
+      "phone": "Telefon",
+      "phonePlaceholder": "Telefon numaranızı girin",
+      "subject": "Konu",
+      "subjectPlaceholder": "Mesaj konusunu girin",
+      "message": "Mesaj",
+      "messagePlaceholder": "Mesajınızı yazın",
+      "send": "Gönder",
+      "sending": "Gönderiliyor...",
+      "success": "Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.",
+      "error": "Mesaj gönderilirken bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "info": {
+      "title": "İletişim Bilgileri",
+      "address": "Lorem Ipsum Mah. Teknoloji Cad. No: 123/A, Kadıköy / İstanbul",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "workingHours": "Çalışma Saatleri",
+      "weekdays": "Pazartesi - Cuma: 09:00 - 18:00",
+      "weekend": "Cumartesi: 09:00 - 13:00"
+    }
+  },
+  "projects": {
+    "title": "Projelerimiz",
+    "subtitle": "Tamamladığımız başarılı projeler",
+    "filter": "Kategoriye Göre Filtrele",
+    "allCategories": "Tüm Kategoriler",
+    "location": "Konum",
+    "viewDetails": "Detayları Gör",
+    "back": "Geri Dön",
+    "relatedProjects": "İlgili Projeler"
+  },
+  "categories": {
+    "viewAll": "Tümünü Gör",
+    "projectsCount": "{{count}} proje"
+  },
+  "whatsapp": {
+    "message": "Merhaba, Nova Agro tarım teknolojileri ve ziraat mühendisliği hizmetleriniz hakkında bilgi almak istiyorum."
+  },
+  "maintenance": {
+    "title": "Bakım Modu",
+    "description": "Site şu anda bakım modundadır. En kısa sürede geri döneceğiz.",
+    "heading": "Bakımdayız",
+    "message": "Sitemiz şu anda bakım modundadır.\n\nEn kısa sürede geri döneceğiz.\n\nSorularınız için bizimle iletişime geçebilirsiniz.",
+    "whatsapp": "WhatsApp",
+    "whatsappMessage": "Merhaba, Nova Agro siteniz bakımdayken size ulaşmak istiyorum."
+  }
+}

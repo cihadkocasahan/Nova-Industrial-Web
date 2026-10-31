@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f1f8e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dcedc8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  <!-- Soil layers -->
+  <rect x="100" y="280" width="600" height="40" rx="4" fill="#8d6e63"/>
+  <rect x="100" y="328" width="600" height="40" rx="4" fill="#795548"/>
+  <rect x="100" y="376" width="600" height="40" rx="4" fill="#6d4c41"/>
+  <!-- Labels -->
+  <text x="130" y="305" font-family="Arial" font-size="14" fill="white" font-weight="bold">Yüzey Horizon (A)</text>
+  <text x="130" y="353" font-family="Arial" font-size="14" fill="#fff8f0" font-weight="bold">Alt Toprak (B)</text>
+  <text x="130" y="401" font-family="Arial" font-size="14" fill="#ffccbc" font-weight="bold">Ana Materyal (C)</text>
+  <!-- Plants emerging -->
+  <line x1="250" y1="280" x2="250" y2="200" stroke="#388e3c" stroke-width="4"/>
+  <ellipse cx="240" cy="215" rx="20" ry="10" fill="#4caf50" transform="rotate(-30 240 215)"/>
+  <ellipse cx="262" cy="225" rx="20" ry="10" fill="#43a047" transform="rotate(20 262 225)"/>
+  <line x1="400" y1="280" x2="400" y2="180" stroke="#2e7d32" stroke-width="4"/>
+  <ellipse cx="388" cy="195" rx="22" ry="11" fill="#4caf50" transform="rotate(-25 388 195)"/>
+  <ellipse cx="413" cy="208" rx="22" ry="11" fill="#388e3c" transform="rotate(25 413 208)"/>
+  <line x1="550" y1="280" x2="550" y2="205" stroke="#388e3c" stroke-width="4"/>
+  <ellipse cx="538" cy="218" rx="20" ry="10" fill="#4caf50" transform="rotate(-30 538 218)"/>
+  <ellipse cx="563" cy="228" rx="20" ry="10" fill="#43a047" transform="rotate(20 563 228)"/>
+  <!-- NPK icons -->
+  <circle cx="200" cy="150" r="35" fill="#1b5e20" opacity="0.85"/>
+  <text x="200" y="155" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="white">N</text>
+  <circle cx="300" cy="130" r="35" fill="#2e7d32" opacity="0.85"/>
+  <text x="300" y="135" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="white">P</text>
+  <circle cx="400" cy="120" r="35" fill="#388e3c" opacity="0.85"/>
+  <text x="400" y="125" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="white">K</text>
+  <!-- pH meter -->
+  <rect x="560" y="100" width="80" height="130" rx="10" fill="#f5f5f5" stroke="#9e9e9e" stroke-width="2"/>
+  <text x="600" y="128" text-anchor="middle" font-family="Arial" font-size="12" fill="#424242">pH</text>
+  <text x="600" y="158" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#2e7d32">6.8</text>
+  <text x="600" y="178" text-anchor="middle" font-family="Arial" font-size="11" fill="#66bb6a">Optimal</text>
+  <text x="400" y="460" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#1b5e20" opacity="0.7">Nova Agro — Toprak Analizi &amp; VRA Gübreleme</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="fav-green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15803d"/>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </linearGradient>
+    <linearGradient id="fav-lime" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#16a34a"/>
+      <stop offset="100%" stop-color="#84cc16"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Precision Orbit Ring -->
+  <circle cx="32" cy="32" r="27" fill="none" stroke="url(#fav-lime)" stroke-width="1.8" stroke-dasharray="4, 3" opacity="0.6"/>
+  <!-- Telemetry Ticks -->
+  <line x1="32" y1="2" x2="32" y2="7" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="32" y1="57" x2="32" y2="62" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="2" y1="32" x2="7" y2="32" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="57" y1="32" x2="62" y2="32" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Drone Struts -->
+  <line x1="32" y1="32" x2="17" y2="17" stroke="#15803d" stroke-width="2.8" stroke-linecap="round"/>
+  <line x1="32" y1="32" x2="47" y2="17" stroke="#15803d" stroke-width="2.8" stroke-linecap="round"/>
+  <line x1="32" y1="32" x2="47" y2="47" stroke="#15803d" stroke-width="2.8" stroke-linecap="round"/>
+  <line x1="32" y1="32" x2="17" y2="47" stroke="#15803d" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- Rotor Guards & Hubs -->
+  <circle cx="17" cy="17" r="6" fill="none" stroke="#84cc16" stroke-width="1.8"/>
+  <circle cx="17" cy="17" r="2.5" fill="#16a34a"/>
+  <circle cx="47" cy="17" r="6" fill="none" stroke="#84cc16" stroke-width="1.8"/>
+  <circle cx="47" cy="17" r="2.5" fill="#16a34a"/>
+  <circle cx="47" cy="47" r="6" fill="none" stroke="#84cc16" stroke-width="1.8"/>
+  <circle cx="47" cy="47" r="2.5" fill="#16a34a"/>
+  <circle cx="17" cy="47" r="6" fill="none" stroke="#84cc16" stroke-width="1.8"/>
+  <circle cx="17" cy="47" r="2.5" fill="#16a34a"/>
+
+  <!-- Central Agricultural Sprout -->
+  <path d="M 32,36 C 27,29 22,21 24,14 C 30,14 33,22 32,36 Z" fill="url(#fav-green)"/>
+  <path d="M 32,36 C 35,26 42,19 46,12 C 47,21 41,30 32,36 Z" fill="url(#fav-lime)"/>
+  <line x1="32" y1="36" x2="32" y2="21" stroke="#15803d" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="32" cy="37" r="3.2" fill="#84cc16" stroke="#15803d" stroke-width="1.2"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" width="160" height="40">
+  <polygon points="16,8 30,20 16,32" fill="#0284c7"/>
+  <polygon points="8,14 18,22 8,30" fill="#15803d"/>
+  <text x="38" y="25" font-family="'Work Sans', sans-serif" font-size="14" font-weight="800" fill="#0f172a" letter-spacing="0.5">Trimble Ag</text>
+</svg>

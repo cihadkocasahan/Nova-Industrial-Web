@@ -1,0 +1,89 @@
+services:
+  # ==========================================
+  # MySQL Database (utf8mb4_turkish_ci)
+  # ==========================================
+  mysql:
+    image: mysql:8.0
+    container_name: nova_industrial_mysql
+    restart: unless-stopped
+    command: >
+      --character-set-server=utf8mb4
+      --collation-server=utf8mb4_turkish_ci
+      --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: RootNovaPassword2026!
+      MYSQL_DATABASE: nova_industrial_db
+      MYSQL_USER: nova_user
+      MYSQL_PASSWORD: NovaSecret2026!
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "nova_user", "-pNovaSecret2026!"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    networks:
+      - nova_network
+
+  # ==========================================
+  # Nova Industrial Backend API (Node.js/Express)
+  # ==========================================
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: nova_industrial_backend
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_USERNAME: nova_user
+      DB_PASSWORD: NovaSecret2026!
+      DB_DATABASE: nova_industrial_db
+      JWT_SECRET: nova_industrial_jwt_secret_demo_key_2026!
+      AUTO_SEED: "true"
+      BASE_URL: http://localhost:8080
+      SMTP_HOST: smtp.demo.local
+      SMTP_PORT: 587
+      SMTP_USER: contact@nova-industrial.demo
+      SMTP_PASS: demo_smtp_password
+    ports:
+      - "3000:3000"
+    volumes:
+      - uploads_data:/app/uploads
+    networks:
+      - nova_network
+
+  # ==========================================
+  # Nova Industrial Frontend (Vite/React/Nginx)
+  # ==========================================
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: nova_industrial_frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
+    networks:
+      - nova_network
+
+networks:
+  nova_network:
+    driver: bridge
+
+volumes:
+  mysql_data:
+    driver: local
+  uploads_data:
+    driver: local

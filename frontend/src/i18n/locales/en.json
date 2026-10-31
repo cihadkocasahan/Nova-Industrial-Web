@@ -1,0 +1,136 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "close": "Close",
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "viewDetails": "View Details"
+  },
+  "header": {
+    "home": "Home",
+    "services": "Our Services",
+    "projects": "Our Projects",
+    "articles": "News",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "footer": {
+    "companyName": "Nova Agro",
+    "description": "Advanced AgTech engineering, agricultural drone solutions, smart irrigation, and precision greenhouse automation.",
+    "quickLinks": "Quick Links",
+    "services": "Our Services",
+    "projects": "Our Projects",
+    "contact": "Contact",
+    "contactInfo": "Contact Information",
+    "address": "Lorem Ipsum District, Tech Ave. No: 123/A, Istanbul / Turkey",
+    "phone": "Phone",
+    "email": "Email",
+    "followUs": "Follow Us",
+    "allRightsReserved": "All rights reserved",
+    "copyright": "© {{year}} Nova Agro. All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "title": "Nova Agro | Advanced AgTech & Agricultural Engineering",
+      "subtitle": "Agricultural drone spraying, precision farming, soil analysis, and smart greenhouse automation",
+      "cta": "Contact Us"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "We provide a comprehensive range of precision farming and agricultural engineering services"
+    },
+    "projects": {
+      "title": "Our Projects",
+      "subtitle": "Successful projects we have completed",
+      "viewAll": "View All",
+      "readMore": "Read More"
+    },
+    "brands": {
+      "title": "Brands & Partners",
+      "subtitle": "Reliable brands and partners we use in our projects"
+    },
+    "articles": {
+      "title": "News & Announcements",
+      "subtitle": "Latest news from the industry and our announcements",
+      "readMore": "Read More",
+      "publishedOn": "Published on"
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Contact us, we would be happy to help you",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred while sending the message."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch with us",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Enter your first and last name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email address",
+      "phone": "Phone",
+      "phonePlaceholder": "Enter your phone number",
+      "subject": "Subject",
+      "subjectPlaceholder": "Enter the message subject",
+      "message": "Message",
+      "messagePlaceholder": "Write your message",
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully! We will get back to you as soon as possible.",
+      "error": "An error occurred while sending the message. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "Lorem Ipsum District, Tech Ave. No: 123/A, Istanbul / Turkey",
+      "phone": "Phone",
+      "email": "Email",
+      "workingHours": "Working Hours",
+      "weekdays": "Monday - Friday: 09:00 - 18:00",
+      "weekend": "Saturday: 09:00 - 13:00"
+    }
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Successful projects we have completed",
+    "filter": "Filter by Category",
+    "allCategories": "All Categories",
+    "location": "Location",
+    "viewDetails": "View Details",
+    "back": "Go Back",
+    "relatedProjects": "Related Projects"
+  },
+  "categories": {
+    "viewAll": "View All",
+    "projectsCount": "{{count}} projects"
+  },
+  "whatsapp": {
+    "message": "Hello, I would like to get information about Nova Agro agricultural engineering services."
+  },
+  "maintenance": {
+    "title": "Maintenance Mode",
+    "description": "The site is currently in maintenance mode. We will be back shortly.",
+    "heading": "We're Under Maintenance",
+    "message": "Our website is currently under maintenance.\nWe will be back shortly.",
+    "whatsapp": "WhatsApp",
+    "whatsappMessage": "Hello, I would like to reach Nova Agro while your site is under maintenance."
+  }
+}

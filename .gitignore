@@ -1,0 +1,83 @@
+# Dependencies
+node_modules/
+package-lock.json
+**/node_modules/
+**/package-lock.json
+
+# Build outputs
+dist/
+build/
+**/dist/
+**/build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Logs
+*.log
+logs/
+**/*.log
+**/logs/
+
+# OS
+.DS_Store
+Thumbs.db
+**/.DS_Store
+**/Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+**/.vscode/
+**/.idea/
+
+# Uploads (production'da kalabilir ama development'ta ignore edilebilir)
+uploads/*
+!uploads/.gitkeep
+**/uploads/*
+!**/uploads/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+temp_*
+**/*.tmp
+**/*.temp
+**/temp_*
+
+# Test files
+test-*.ps1
+test-*.sh
+*.test.*
+
+# Production build files
+public_html/
+!public_html/.htaccess
+!public_html/index.html
+public_html-htaccess-fix.txt
+
+# Development test scripts
+check-htaccess.ps1
+test-backend.ps1
+test-frontend-api.ps1
+test-ftp.ps1
+
+# Database migration files (keep structure but not data)
+backend/drizzle/
+backend/meta/
+!backend/drizzle/.gitkeep
+
+# Uploads directory (production files)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# TypeScript cache
+*.tsbuildinfo

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#b3e5fc;stop-opacity:0.9" />
+    </linearGradient>
+    <linearGradient id="plantGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a5d6a7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#388e3c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f9fbe7"/>
+  <!-- Greenhouse structure -->
+  <polygon points="400,60 100,220 700,220" fill="url(#glassGrad)" stroke="#4fc3f7" stroke-width="3"/>
+  <rect x="100" y="220" width="600" height="220" fill="url(#glassGrad)" stroke="#4fc3f7" stroke-width="3"/>
+  <!-- Structural bars -->
+  <line x1="400" y1="60" x2="250" y2="220" stroke="#0288d1" stroke-width="3" opacity="0.5"/>
+  <line x1="400" y1="60" x2="550" y2="220" stroke="#0288d1" stroke-width="3" opacity="0.5"/>
+  <line x1="175" y1="140" x2="625" y2="140" stroke="#0288d1" stroke-width="2" opacity="0.4"/>
+  <!-- Plant beds -->
+  <rect x="130" y="370" width="160" height="60" rx="5" fill="#6d4c41"/>
+  <rect x="320" y="370" width="160" height="60" rx="5" fill="#6d4c41"/>
+  <rect x="510" y="370" width="160" height="60" rx="5" fill="#6d4c41"/>
+  <!-- Plants -->
+  <line x1="160" y1="370" x2="160" y2="280" stroke="#2e7d32" stroke-width="3"/>
+  <ellipse cx="148" cy="295" rx="18" ry="9" fill="#4caf50" transform="rotate(-20 148 295)"/>
+  <ellipse cx="173" cy="308" rx="18" ry="9" fill="#43a047" transform="rotate(20 173 308)"/>
+  <line x1="210" y1="370" x2="210" y2="270" stroke="#388e3c" stroke-width="3"/>
+  <ellipse cx="197" cy="285" rx="18" ry="9" fill="#66bb6a" transform="rotate(-25 197 285)"/>
+  <ellipse cx="224" cy="298" rx="18" ry="9" fill="#4caf50" transform="rotate(25 224 298)"/>
+  <line x1="400" y1="370" x2="400" y2="260" stroke="#2e7d32" stroke-width="3"/>
+  <ellipse cx="386" cy="275" rx="20" ry="10" fill="#4caf50" transform="rotate(-20 386 275)"/>
+  <ellipse cx="414" cy="290" rx="20" ry="10" fill="#388e3c" transform="rotate(20 414 290)"/>
+  <line x1="590" y1="370" x2="590" y2="275" stroke="#2e7d32" stroke-width="3"/>
+  <ellipse cx="576" cy="290" rx="18" ry="9" fill="#4caf50" transform="rotate(-20 576 290)"/>
+  <ellipse cx="604" cy="305" rx="18" ry="9" fill="#43a047" transform="rotate(20 604 305)"/>
+  <!-- Climate sensor -->
+  <rect x="350" y="100" width="100" height="70" rx="8" fill="white" stroke="#2196f3" stroke-width="2"/>
+  <text x="400" y="122" text-anchor="middle" font-family="Arial" font-size="11" fill="#424242">VPD</text>
+  <text x="400" y="148" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#1565c0">1.1</text>
+  <text x="400" y="165" text-anchor="middle" font-family="Arial" font-size="10" fill="#42a5f5">kPa</text>
+  <!-- Temperature badge -->
+  <rect x="580" y="240" width="90" height="50" rx="6" fill="white" stroke="#66bb6a" stroke-width="1.5"/>
+  <text x="625" y="260" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Sıcaklık</text>
+  <text x="625" y="280" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#e65100">24°C</text>
+  <!-- Humidity badge -->
+  <rect x="130" y="240" width="90" height="50" rx="6" fill="white" stroke="#66bb6a" stroke-width="1.5"/>
+  <text x="175" y="260" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Nem</text>
+  <text x="175" y="280" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#0288d1">72%</text>
+  <text x="400" y="460" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#1b5e20" opacity="0.7">Nova Agro — Modern Sera &amp; İklim Otomasyonu</text>
+</svg>
