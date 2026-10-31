@@ -51,6 +51,23 @@ function ArticleList({ articles, limit = 6 }: ArticleListProps) {
           textAlign: 'center',
           marginBottom: '2.5rem',
         }}>
+          <span
+            style={{
+              color: '#15803d',
+              backgroundColor: '#f0fdf4',
+              border: '1px solid #dcfce7',
+              fontWeight: 700,
+              fontSize: '0.78rem',
+              textTransform: 'uppercase',
+              letterSpacing: '0.08em',
+              display: 'inline-block',
+              padding: '0.25rem 0.75rem',
+              borderRadius: '9999px',
+              marginBottom: '0.75rem',
+            }}
+          >
+            Bilgi Merkezi
+          </span>
           <h2 style={{
             fontSize: '2.25rem',
             fontWeight: 800,

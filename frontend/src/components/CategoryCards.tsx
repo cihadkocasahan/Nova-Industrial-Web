@@ -23,6 +23,23 @@ function CategoryCards({ categories }: CategoryCardsProps) {
           textAlign: 'center',
           marginBottom: '3rem',
         }}>
+          <span
+            style={{
+              color: '#15803d',
+              backgroundColor: '#f0fdf4',
+              border: '1px solid #dcfce7',
+              fontWeight: 700,
+              fontSize: '0.78rem',
+              textTransform: 'uppercase',
+              letterSpacing: '0.08em',
+              display: 'inline-block',
+              padding: '0.25rem 0.75rem',
+              borderRadius: '9999px',
+              marginBottom: '0.75rem',
+            }}
+          >
+            Uzmanlık Alanlarımız
+          </span>
           <h2 style={{
             fontSize: '2.5rem',
             fontWeight: 'bold',
@@ -65,14 +82,14 @@ function CategoryCards({ categories }: CategoryCardsProps) {
               }}
               onMouseEnter={(e) => {
                 const link = e.currentTarget;
-                link.style.transform = 'translateY(-8px)';
-                link.style.boxShadow = '0 8px 24px rgba(22, 163, 74, 0.2)';
-                link.style.borderColor = 'var(--office-green)';
+                link.style.transform = 'translateY(-3px)';
+                link.style.boxShadow = '0 12px 24px -4px rgba(15, 23, 42, 0.08), 0 4px 8px -2px rgba(15, 23, 42, 0.03)';
+                link.style.borderColor = '#cbd5e1';
                 const iconDiv = link.querySelector('div[style*="backgroundColor"]') as HTMLElement;
                 if (iconDiv) {
                   iconDiv.style.backgroundColor = 'var(--office-green-dark)';
-                  iconDiv.style.transform = 'scale(1.1)';
-                  iconDiv.style.boxShadow = '0 6px 16px rgba(22, 163, 74, 0.3)';
+                  iconDiv.style.transform = 'scale(1.04)';
+                  iconDiv.style.boxShadow = '0 4px 12px rgba(15, 23, 42, 0.12)';
                 }
                 const linkText = link.querySelector('.category-link-text') as HTMLElement;
                 if (linkText) {
@@ -86,13 +103,13 @@ function CategoryCards({ categories }: CategoryCardsProps) {
               onMouseLeave={(e) => {
                 const link = e.currentTarget;
                 link.style.transform = 'translateY(0)';
-                link.style.boxShadow = '0 2px 8px rgba(0,0,0,0.1)';
+                link.style.boxShadow = '0 2px 8px rgba(0,0,0,0.04)';
                 link.style.borderColor = '#e5e7eb';
                 const iconDiv = link.querySelector('div[style*="backgroundColor"]') as HTMLElement;
                 if (iconDiv) {
                   iconDiv.style.backgroundColor = 'var(--office-green)';
                   iconDiv.style.transform = 'scale(1)';
-                  iconDiv.style.boxShadow = '0 4px 12px rgba(22, 163, 74, 0.2)';
+                  iconDiv.style.boxShadow = 'none';
                 }
                 const linkText = link.querySelector('.category-link-text') as HTMLElement;
                 if (linkText) {

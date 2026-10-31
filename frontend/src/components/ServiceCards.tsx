@@ -71,13 +71,17 @@ function ServiceCards({ services }: ServiceCardsProps) {
         <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
           <span
             style={{
-              color: '#16a34a',
+              color: '#15803d',
+              backgroundColor: '#f0fdf4',
+              border: '1px solid #dcfce7',
               fontWeight: 700,
-              fontSize: '0.875rem',
+              fontSize: '0.78rem',
               textTransform: 'uppercase',
-              letterSpacing: '0.1em',
+              letterSpacing: '0.08em',
               display: 'inline-block',
-              marginBottom: '0.5rem',
+              padding: '0.25rem 0.75rem',
+              borderRadius: '9999px',
+              marginBottom: '0.75rem',
             }}
           >
             Hizmetlerimiz
@@ -117,9 +121,9 @@ function ServiceCards({ services }: ServiceCardsProps) {
                   position: 'relative',
                 }}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-6px)';
-                  e.currentTarget.style.boxShadow = '0 12px 24px -4px rgba(22, 163, 74, 0.15)';
-                  e.currentTarget.style.borderColor = '#16a34a';
+                  e.currentTarget.style.transform = 'translateY(-3px)';
+                  e.currentTarget.style.boxShadow = '0 12px 24px -4px rgba(15, 23, 42, 0.08), 0 4px 8px -2px rgba(15, 23, 42, 0.03)';
+                  e.currentTarget.style.borderColor = '#cbd5e1';
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.transform = 'translateY(0)';

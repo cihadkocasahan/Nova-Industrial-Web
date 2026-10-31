@@ -176,14 +176,14 @@ function HeroSection({ heroSections }: HeroSectionProps) {
                     backgroundRepeat: 'no-repeat',
                   }}
                 >
-                  {/* Dark Overlay for better text readability */}
+                  {/* Cinematic Natural Dark Vignette Overlay for Crisp Legibility */}
                   <div style={{
                     position: 'absolute',
                     top: 0,
                     left: 0,
                     right: 0,
                     bottom: 0,
-                    background: 'linear-gradient(135deg, rgba(5, 46, 22, 0.78) 0%, rgba(22, 163, 74, 0.6) 50%, rgba(15, 23, 42, 0.78) 100%)',
+                    background: 'linear-gradient(to top, rgba(15, 23, 42, 0.94) 0%, rgba(15, 23, 42, 0.62) 48%, rgba(15, 23, 42, 0.38) 100%)',
                     zIndex: 1,
                   }} />
                   
@@ -241,33 +241,33 @@ function HeroSection({ heroSections }: HeroSectionProps) {
                     ) : null}
                     {card.ctaText && (
                       <span style={{
-                        backgroundColor: 'rgba(255, 255, 255, 0.95)',
-                        color: 'var(--office-green)',
-                        fontWeight: 'var(--font-weight-bold)',
-                        fontSize: 'var(--font-size-lg)',
+                        backgroundColor: '#15803d',
+                        color: '#ffffff',
+                        fontWeight: 600,
+                        fontSize: '1rem',
                         display: 'inline-flex',
                         alignItems: 'center',
-                        gap: '0.75rem',
-                        padding: '1rem 2rem',
-                        borderRadius: 'var(--radius-md)',
-                        boxShadow: 'var(--shadow-lg)',
-                        transition: 'all var(--transition-base)',
+                        gap: '0.65rem',
+                        padding: '0.75rem 1.6rem',
+                        borderRadius: '8px',
+                        boxShadow: '0 4px 14px rgba(0, 0, 0, 0.25)',
+                        transition: 'background-color 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease',
                         cursor: 'pointer',
                       }}
                       onMouseEnter={(e) => {
-                        e.currentTarget.style.backgroundColor = 'white';
+                        e.currentTarget.style.backgroundColor = '#166534';
                         e.currentTarget.style.transform = 'translateY(-2px)';
-                        e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.3)';
+                        e.currentTarget.style.boxShadow = '0 6px 20px rgba(0, 0, 0, 0.35)';
                       }}
                       onMouseLeave={(e) => {
-                        e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+                        e.currentTarget.style.backgroundColor = '#15803d';
                         e.currentTarget.style.transform = 'translateY(0)';
-                        e.currentTarget.style.boxShadow = 'var(--shadow-lg)';
+                        e.currentTarget.style.boxShadow = '0 4px 14px rgba(0, 0, 0, 0.25)';
                       }}
                       >
                         {card.ctaText}
                         <span className="material-symbols-outlined" style={{
-                          fontSize: '1.5rem',
+                          fontSize: '1.25rem',
                           transition: 'transform var(--transition-base)',
                         }}>
                           arrow_forward
