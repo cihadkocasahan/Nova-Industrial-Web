@@ -123,11 +123,10 @@ npm run preview
 
 ### 🎨 Frontend Yetenekleri
 - **Framework & Araçlar:** React 18, TypeScript 5, Vite 5, React Router v6, i18next (TR/EN).
-- **Anti-Slop Tasarım Sistemi (`design-taste-frontend`):**
-  - **60-30-10 Kuralı:** %60 nötr mimari slate (`#f8fafc`, `#ffffff`), %30 yapısal kurumsal koyu gri (`#0f172a`, `#334155`), %10 botanik AgTech yeşili (`#15803d`).
-  - Radyoaktif yeşil gölgeler ve yapay gradyanlar elenmiş, mimari gölge derinliği kazandırılmıştır.
-- **Güvenlik (Sanitization):** `DOMPurify` entegrasyonu ile zengin metin alanlarında XSS koruması.
-- **Görsel Varlıklar:** DJI, John Deere, Trimble, Netafim, Yara ve Rain Bird için temiz, optimize edilmiş monokrom vektörel SVG logoları.
+- **Tasarım Sistemi:** `design-system.css` içinde merkezi CSS token'ları — renk paleti, tipografi ve boşluklar tek noktadan yönetilir. Sektör veya marka değiştiğinde sadece token dosyasını güncellemek yeterlidir.
+- **Özelleştirilebilir İçerik Alanları:** Hero slider metni ve görseli, hizmet kartları, proje portföyü, partner/marka logoları ve footer bilgileri tamamen admin panelinden veya seed verisiyle değiştirilebilir — kodda değişiklik gerekmez.
+- **Güvenlik:** `DOMPurify` ile zengin metin (Quill) çıktılarında XSS koruması; tüm form inputları Zod şemalarıyla doğrulanır.
+- **Statik Varlıklar:** `public/brands/` altında partner logoları, `public/articles/` altında içerik görselleri — admin panelinden veya doğrudan dosya olarak değiştirilebilir.
 
 ### ⚙️ Backend & Veri Katmanı
 - **API Mimarisi:** Express 5 + TypeScript + ESM.
