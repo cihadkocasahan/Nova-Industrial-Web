@@ -1,0 +1,3502 @@
+{
+ "url": "http://localhost:8080/",
+ "at": "2026-10-31T23:29:48.224Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    1,
+    1,
+    0.87,
+    0.64,
+    0.37,
+    0.67,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 4,
+    "css": 1,
+    "transitions": 2,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 6774,
+     "screens": 7.5,
+     "words": 1084,
+     "img": 12,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [
+      "🧪"
+     ],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Nova Agro — Zirai Drone & Multispektral Analiz",
+     "words": 8,
+     "chars": 46,
+     "lines": 2,
+     "size": 56,
+     "vw": 3.9,
+     "font": "Work Sans",
+     "weight": 800,
+     "tracking": 0,
+     "leading": 1.2,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.79,
+     "top": 221,
+     "tag": "h3",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Nova Agro",
+     "words": 2,
+     "lines": 1,
+     "size": 24,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "Nova Agro — Zirai Drone & Multispektral Analiz",
+      "words": 8,
+      "chars": 46,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Work Sans",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.79,
+      "top": 221,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Modern Sera Otomasyonu & İklimlendirme",
+      "words": 5,
+      "chars": 38,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Work Sans",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.79,
+      "top": 221,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Hassas Tarım & Akıllı Sulama Otomasyonu",
+      "words": 6,
+      "chars": 39,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Work Sans",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 237,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Projelerimiz & Uzmanlık Alanlarımız",
+      "words": 4,
+      "chars": 35,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 869,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Nova Agro — Geleceğin Tarımını İleri Mühendislikle İnşa Ediyoruz",
+      "words": 9,
+      "chars": 64,
+      "lines": 2,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 1978,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "5 Temel Ziraat Mühendisliği & AgTech Hizmetimiz",
+      "words": 7,
+      "chars": 47,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 2676,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Teknoloji Partnerlerimiz & Referanslar",
+      "words": 4,
+      "chars": 38,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Work Sans",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 4171,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "AgTech Bilgi Merkezi & Makaleler",
+      "words": 5,
+      "chars": 32,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Work Sans",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 4525,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "İletişim",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 5257,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 6,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 0.93,
+       "mono": false
+      },
+      {
+       "family": "Material Symbols Outlined",
+       "share": 0.04,
+       "mono": true
+      },
+      {
+       "family": "Arial",
+       "share": 0.02,
+       "mono": false
+      },
+      {
+       "family": "monospace",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 4,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      24,
+      30,
+      36,
+      40,
+      56
+     ],
+     "sizeCount": 15,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 13.6,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 10.3
+     },
+     "measureChars": 100,
+     "max": {
+      "size": 56,
+      "vw": 3.9,
+      "font": "Work Sans",
+      "text": "Nova Agro — Zirai Drone & Multispektral "
+     },
+     "monoShare": 0.05,
+     "monoProseShare": 0.05,
+     "monoFamilies": [
+      "Material Symbols Outlined",
+      "monospace"
+     ],
+     "monoSamples": [
+      "arrow_forward",
+      "arrow_forward",
+      "arrow_forward",
+      "chevron_left",
+      "chevron_right",
+      "category"
+     ],
+     "microLabels": 4,
+     "microLabelShare": 0.007,
+     "microSamples": [
+      "Uzmanlık Alanlarımız",
+      "Hakkımızda",
+      "Hizmetlerimiz",
+      "Bilgi Merkezi"
+     ],
+     "upperShare": 0.01,
+     "centerShare": 0.16,
+     "smallText": 13
+    },
+    "eyebrows": [
+     {
+      "text": "Uzmanlık Alanlarımız",
+      "above": "Projelerimiz & Uzmanlık Alanlarımız",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": true,
+      "size": 12.5,
+      "top": 827
+     },
+     {
+      "text": "Hakkımızda",
+      "above": "Nova Agro — Geleceğin Tarımını İleri Müh",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": true,
+      "size": 12.5,
+      "top": 1936
+     },
+     {
+      "text": "Hizmetlerimiz",
+      "above": "5 Temel Ziraat Mühendisliği & AgTech Hiz",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": true,
+      "size": 12.5,
+      "top": 2634
+     },
+     {
+      "text": "Bilgi Merkezi",
+      "above": "AgTech Bilgi Merkezi & Makaleler",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": true,
+      "size": 12.5,
+      "top": 4483
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f8fafc",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.4,
+      "l": 0.98
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f9fafb",
+       "top": 795,
+       "hsl": {
+        "h": 210,
+        "s": 0.2,
+        "l": 0.98
+       }
+      },
+      {
+       "color": "#f8fafc",
+       "top": 4114,
+       "hsl": {
+        "h": 210,
+        "s": 0.4,
+        "l": 0.98
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 5337,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#1e293b",
+       "top": 6250,
+       "hsl": {
+        "h": 217,
+        "s": 0.33,
+        "l": 0.17
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#475569",
+       "share": 0.32
+      },
+      {
+       "color": "#374151",
+       "share": 0.14
+      },
+      {
+       "color": "#4b5563",
+       "share": 0.13
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.11
+      },
+      {
+       "color": "#0f172a",
+       "share": 0.08
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Ana Sayfa",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 15,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Detaylı Bilgi",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "arrow_forward",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 20,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Detaylı Bilgi",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "arrow_forward",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 20,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Detaylı Bilgi",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 16,
+     "inHero": 1,
+     "radius": 8,
+     "height": 40,
+     "withShadow": 10,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Teklif Al"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 41,
+     "shadowOverlay": 3,
+     "shadowSamples": [
+      "span → rgba(0, 0, 0, 0.25) 0px 4px 14px 0px",
+      "span → rgba(0, 0, 0, 0.25) 0px 4px 14px 0px",
+      "span → rgba(0, 0, 0, 0.25) 0px 4px 14px 0px",
+      "button.hero-slider-nav-btn.hero-slider-nav-prev → rgba(0, 0, 0, 0.15) 0px 8px 25px 0px"
+     ],
+     "gradients": 3,
+     "scrims": 0,
+     "gradientSamples": [
+      "div → linear-gradient(to top, rgba(15, 23, 42, 0.94) 0%, rgba(15, 23, 42, 0.62) 48%, rgba(15, 23, 42, 0.38) 100%)",
+      "div → linear-gradient(to top, rgba(15, 23, 42, 0.94) 0%, rgba(15, 23, 42, 0.62) 48%, rgba(15, 23, 42, 0.38) 100%)",
+      "div → linear-gradient(to top, rgba(15, 23, 42, 0.94) 0%, rgba(15, 23, 42, 0.62) 48%, rgba(15, 23, 42, 0.38) 100%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 12,
+     "hairlineSamples": [
+      "header.header 1440px",
+      "section#about.about-section 1440px",
+      "div 291px",
+      "div 291px",
+      "div 291px"
+     ],
+     "outlinedBoxes": 14,
+     "dashed": 1,
+     "blurred": 3,
+     "roundedBoxes": 17,
+     "boxRadius": 16,
+     "squareMedia": 3,
+     "roundedMedia": 3,
+     "mediaRadius": 14,
+     "textShadow": 10,
+     "cardRows": [
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1039
+      },
+      {
+       "count": 5,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 2871
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 4674
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 0.8
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "material symbols outlined",
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 6774,
+    "margins": {
+     "left": 152,
+     "right": 171
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 75,
+      "height": 720,
+      "words": 39,
+      "media": 3,
+      "middle": 396,
+      "heading": {
+       "text": "Hassas Tarım & Akıllı Sulama Otomasyonu",
+       "size": 56,
+       "tag": "h3"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 48,
+      "textRight": 48,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#categories.section",
+      "tag": "section",
+      "top": 795,
+      "height": 1060,
+      "words": 158,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Projelerimiz & Uzmanlık Alanlarımız",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 185,
+      "right": 201,
+      "textLeft": 185,
+      "textRight": 201,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section",
+      "tag": "section",
+      "top": 1855,
+      "height": 747,
+      "words": 140,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Nova Agro — Geleceğin Tarımını İleri Mühendislikle",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 171,
+      "right": 171,
+      "textLeft": 171,
+      "textRight": 171,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.section",
+      "tag": "section",
+      "top": 2602,
+      "height": 1512,
+      "words": 442,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "5 Temel Ziraat Mühendisliği & AgTech Hizmetimiz",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 185,
+      "right": 185,
+      "textLeft": 185,
+      "textRight": 185,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#brands.section",
+      "tag": "section",
+      "top": 4114,
+      "height": 321,
+      "words": 18,
+      "media": 0,
+      "middle": 41,
+      "heading": {
+       "text": "Teknoloji Partnerlerimiz & Referanslar",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 228,
+      "right": 228,
+      "textLeft": 446,
+      "textRight": 446,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#articles.section",
+      "tag": "section",
+      "top": 4435,
+      "height": 789,
+      "words": 139,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "AgTech Bilgi Merkezi & Makaleler",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 153,
+      "right": 153,
+      "textLeft": 177,
+      "textRight": 174,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.section",
+      "tag": "section",
+      "top": 5225,
+      "height": 1025,
+      "words": 77,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "İletişim",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 184,
+      "right": 184,
+      "textLeft": 184,
+      "textRight": 192,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 6250,
+      "height": 524,
+      "words": 124,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Nova Agro",
+       "size": 22,
+       "tag": "h3"
+      },
+      "left": 152,
+      "right": 168,
+      "textLeft": 152,
+      "textRight": 168,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Nova Agro",
+      "size": 24,
+      "top": 23,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 177,
+      "n": 11
+     },
+     {
+      "x": 566,
+      "n": 10
+     },
+     {
+      "x": 956,
+      "n": 6
+     },
+     {
+      "x": 270,
+      "n": 4
+     },
+     {
+      "x": 152,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 32,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.02,
+    "voidBox": {
+     "x": 0,
+     "y": 840,
+     "w": 360,
+     "h": 60
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    1,
+    1,
+    1,
+    0.86,
+    0.71,
+    0.49,
+    0.6,
+    1,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 4,
+    "css": 1,
+    "transitions": 2,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 9665,
+     "screens": 9.4,
+     "words": 1075,
+     "img": 12,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [
+      "🧪"
+     ],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Nova Agro — Zirai Drone & Multispektral Analiz",
+     "words": 8,
+     "chars": 46,
+     "lines": 2,
+     "size": 32,
+     "vw": 4.2,
+     "font": "Work Sans",
+     "weight": 800,
+     "tracking": 0,
+     "leading": 1.2,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.96,
+     "top": 117,
+     "tag": "h3",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Nova Agro",
+     "words": 2,
+     "lines": 1,
+     "size": 20,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "Nova Agro — Zirai Drone & Multispektral Analiz",
+      "words": 8,
+      "chars": 46,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Work Sans",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.96,
+      "top": 117,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Hassas Tarım & Akıllı Sulama Otomasyonu",
+      "words": 6,
+      "chars": 39,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Work Sans",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.87,
+      "top": 117,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Modern Sera Otomasyonu & İklimlendirme",
+      "words": 5,
+      "chars": 38,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Work Sans",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.87,
+      "top": 117,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Projelerimiz & Uzmanlık Alanlarımız",
+      "words": 4,
+      "chars": 35,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 978,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Nova Agro — Geleceğin Tarımını İleri Mühendislikle İnşa Ediyoruz",
+      "words": 9,
+      "chars": 64,
+      "lines": 2,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2451,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "5 Temel Ziraat Mühendisliği & AgTech Hizmetimiz",
+      "words": 7,
+      "chars": 47,
+      "lines": 2,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3264,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Teknoloji Partnerlerimiz & Referanslar",
+      "words": 4,
+      "chars": 38,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Work Sans",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 5374,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "AgTech Bilgi Merkezi & Makaleler",
+      "words": 5,
+      "chars": 32,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Work Sans",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 5824,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "İletişim",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 7058,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 6,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 0.93,
+       "mono": false
+      },
+      {
+       "family": "Material Symbols Outlined",
+       "share": 0.04,
+       "mono": true
+      },
+      {
+       "family": "Arial",
+       "share": 0.02,
+       "mono": false
+      },
+      {
+       "family": "monospace",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 4,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      24,
+      30,
+      32,
+      36,
+      40
+     ],
+     "sizeCount": 15,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 13.6,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 10.3
+     },
+     "measureChars": 78,
+     "max": {
+      "size": 40,
+      "vw": 5.2,
+      "font": "Work Sans",
+      "text": "Projelerimiz & Uzmanlık Alanlarımız"
+     },
+     "monoShare": 0.05,
+     "monoProseShare": 0.05,
+     "monoFamilies": [
+      "Material Symbols Outlined",
+      "monospace"
+     ],
+     "monoSamples": [
+      "arrow_forward",
+      "arrow_forward",
+      "arrow_forward",
+      "chevron_left",
+      "chevron_right",
+      "category"
+     ],
+     "microLabels": 4,
+     "microLabelShare": 0.007,
+     "microSamples": [
+      "Uzmanlık Alanlarımız",
+      "Hakkımızda",
+      "Hizmetlerimiz",
+      "Bilgi Merkezi"
+     ],
+     "upperShare": 0.01,
+     "centerShare": 0.16,
+     "smallText": 13
+    },
+    "eyebrows": [
+     {
+      "text": "Uzmanlık Alanlarımız",
+      "above": "Projelerimiz & Uzmanlık Alanlarımız",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": true,
+      "size": 12.5,
+      "top": 936
+     },
+     {
+      "text": "Hakkımızda",
+      "above": "Nova Agro — Geleceğin Tarımını İleri Müh",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": true,
+      "size": 12.5,
+      "top": 2409
+     },
+     {
+      "text": "Hizmetlerimiz",
+      "above": "5 Temel Ziraat Mühendisliği & AgTech Hiz",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": true,
+      "size": 12.5,
+      "top": 3222
+     },
+     {
+      "text": "Bilgi Merkezi",
+      "above": "AgTech Bilgi Merkezi & Makaleler",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": true,
+      "size": 12.5,
+      "top": 5782
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f8fafc",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.4,
+      "l": 0.98
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f9fafb",
+       "top": 904,
+       "hsl": {
+        "h": 210,
+        "s": 0.2,
+        "l": 0.98
+       }
+      },
+      {
+       "color": "#f8fafc",
+       "top": 5317,
+       "hsl": {
+        "h": 210,
+        "s": 0.4,
+        "l": 0.98
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 7138,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#1e293b",
+       "top": 8853,
+       "hsl": {
+        "h": 217,
+        "s": 0.33,
+        "l": 0.17
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#475569",
+       "share": 0.32
+      },
+      {
+       "color": "#374151",
+       "share": 0.14
+      },
+      {
+       "color": "#4b5563",
+       "share": 0.13
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.11
+      },
+      {
+       "color": "#0f172a",
+       "share": 0.08
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Detaylı Bilgi",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "arrow_forward",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 20,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Detaylı Bilgi",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "arrow_forward",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 20,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Detaylı Bilgi",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "arrow_forward",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 20,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 16,
+     "inHero": 1,
+     "radius": 8,
+     "height": 40,
+     "withShadow": 10,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 39,
+     "shadowOverlay": 2,
+     "shadowSamples": [
+      "span → rgba(0, 0, 0, 0.25) 0px 4px 14px 0px",
+      "span → rgba(0, 0, 0, 0.25) 0px 4px 14px 0px",
+      "span → rgba(0, 0, 0, 0.25) 0px 4px 14px 0px",
+      "a → rgba(0, 0, 0, 0.1) 0px 2px 8px 0px"
+     ],
+     "gradients": 3,
+     "scrims": 0,
+     "gradientSamples": [
+      "div → linear-gradient(to top, rgba(15, 23, 42, 0.94) 0%, rgba(15, 23, 42, 0.62) 48%, rgba(15, 23, 42, 0.38) 100%)",
+      "div → linear-gradient(to top, rgba(15, 23, 42, 0.94) 0%, rgba(15, 23, 42, 0.62) 48%, rgba(15, 23, 42, 0.38) 100%)",
+      "div → linear-gradient(to top, rgba(15, 23, 42, 0.94) 0%, rgba(15, 23, 42, 0.62) 48%, rgba(15, 23, 42, 0.38) 100%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 12,
+     "hairlineSamples": [
+      "header.header 768px",
+      "section#about.about-section 768px",
+      "div 286px",
+      "div 286px",
+      "div 286px"
+     ],
+     "outlinedBoxes": 14,
+     "dashed": 1,
+     "blurred": 3,
+     "roundedBoxes": 17,
+     "boxRadius": 16,
+     "squareMedia": 3,
+     "roundedMedia": 3,
+     "mediaRadius": 14,
+     "textShadow": 10,
+     "cardRows": [
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1148
+      },
+      {
+       "count": 5,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 3507
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 5973
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 0.7
+     },
+     {
+      "type": "bg-image",
+      "ratio": 0.1
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": true,
+     "height": 71,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "material symbols outlined",
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 9665,
+    "margins": {
+     "left": 8,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 85,
+      "height": 819,
+      "words": 72,
+      "media": 3,
+      "middle": 101,
+      "heading": {
+       "text": "Hassas Tarım & Akıllı Sulama Otomasyonu",
+       "size": 32,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 0,
+      "textRight": 0,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#categories.section",
+      "tag": "section",
+      "top": 904,
+      "height": 1424,
+      "words": 158,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Projelerimiz & Uzmanlık Alanlarımız",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section",
+      "tag": "section",
+      "top": 2328,
+      "height": 862,
+      "words": 140,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Nova Agro — Geleceğin Tarımını İleri Mühendislikle",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 41,
+      "textLeft": 32,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.section",
+      "tag": "section",
+      "top": 3190,
+      "height": 2126,
+      "words": 442,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "5 Temel Ziraat Mühendisliği & AgTech Hizmetimiz",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 17,
+      "textLeft": 17,
+      "textRight": 17,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#brands.section",
+      "tag": "section",
+      "top": 5317,
+      "height": 417,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Teknoloji Partnerlerimiz & Referanslar",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 34,
+      "right": 34,
+      "textLeft": 110,
+      "textRight": 110,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#articles.section",
+      "tag": "section",
+      "top": 5734,
+      "height": 1292,
+      "words": 139,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "AgTech Bilgi Merkezi & Makaleler",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 17,
+      "textLeft": 41,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.section",
+      "tag": "section",
+      "top": 7026,
+      "height": 1827,
+      "words": 77,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "İletişim",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 48,
+      "right": 48,
+      "textLeft": 48,
+      "textRight": 57,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 8853,
+      "height": 812,
+      "words": 124,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Nova Agro",
+       "size": 22,
+       "tag": "h3"
+      },
+      "left": 16,
+      "right": 56,
+      "textLeft": 16,
+      "textRight": 56,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Nova Agro",
+      "size": 20,
+      "top": 23,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Hassas Tarım & Akıllı Sulama Otomasyonu",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "IoT Toprak Nem Sensörleri ve Yapay Zeka Destekli S",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Toprak nemi ve mikroklima verileriyle otonom çalış",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "arrow_forward",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Modern Sera Otomasyonu & İklimlendirme",
+      "side": "right",
+      "px": 0
+     },
+     {
+      "text": "365 Gün Yüksek Verimli Örtüaltı Tarım ve Fertigasy",
+      "side": "right",
+      "px": 0
+     },
+     {
+      "text": "Endüstriyel iklim bilgisayarları, oransal havaland",
+      "side": "right",
+      "px": 0
+     }
+    ],
+    "edges": [
+     {
+      "x": 48,
+      "n": 13
+     },
+     {
+      "x": 425,
+      "n": 10
+     },
+     {
+      "x": 32,
+      "n": 8
+     },
+     {
+      "x": 0,
+      "n": 1
+     },
+     {
+      "x": 575,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 33,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0.69,
+    0.86,
+    0.81,
+    0.86,
+    0.64,
+    0.81,
+    0.92
+   ],
+   "motion": {
+    "elements": 5,
+    "css": 1,
+    "transitions": 3,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 13466,
+     "screens": 16,
+     "words": 1075,
+     "img": 12,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [
+      "🧪"
+     ],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Nova Agro — Zirai Drone & Multispektral Analiz",
+     "words": 8,
+     "chars": 46,
+     "lines": 3,
+     "size": 32,
+     "vw": 8.2,
+     "font": "Work Sans",
+     "weight": 800,
+     "tracking": 0,
+     "leading": 1.2,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.92,
+     "top": 117,
+     "tag": "h3",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Nova Agro",
+     "words": 2,
+     "lines": 1,
+     "size": 20,
+     "font": "Work Sans"
+    },
+    "headings": [
+     {
+      "text": "Nova Agro — Zirai Drone & Multispektral Analiz",
+      "words": 8,
+      "chars": 46,
+      "lines": 3,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Work Sans",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.92,
+      "top": 117,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Hassas Tarım & Akıllı Sulama Otomasyonu",
+      "words": 6,
+      "chars": 39,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Work Sans",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.92,
+      "top": 117,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Modern Sera Otomasyonu & İklimlendirme",
+      "words": 5,
+      "chars": 38,
+      "lines": 3,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Work Sans",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 117,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "IoT Toprak Nem Sensörleri ve Yapay Zeka Destekli Sulama Yönetimi",
+      "words": 10,
+      "chars": 64,
+      "lines": 3,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Work Sans",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.92,
+      "top": 210,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "RTK Destekli Hassas Otonom İlaçlama ve NDVI Bitki Sağlığı Haritalama",
+      "words": 10,
+      "chars": 68,
+      "lines": 3,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Work Sans",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.92,
+      "top": 248,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "365 Gün Yüksek Verimli Örtüaltı Tarım ve Fertigasyon Çözümleri",
+      "words": 9,
+      "chars": 62,
+      "lines": 3,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Work Sans",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 248,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "chevron_left",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Material Symbols Outlined",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.1,
+      "top": 403,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "chevron_right",
+      "words": 1,
+      "chars": 13,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Material Symbols Outlined",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.1,
+      "top": 403,
+      "tag": "button",
+      "kind": "heading"
+     },
+     {
+      "text": "Projelerimiz & Uzmanlık Alanlarımız",
+      "words": 4,
+      "chars": 35,
+      "lines": 3,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 834,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "category",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Material Symbols Outlined",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 1162,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Zirai Drone Teknolojileri",
+      "words": 3,
+      "chars": 25,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 1250,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "category",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Material Symbols Outlined",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 1525,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Akıllı Sulama Sistemleri",
+      "words": 3,
+      "chars": 24,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 1613,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "category",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Material Symbols Outlined",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 1889,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Toprak Sağlığı & Bitki Besleme",
+      "words": 5,
+      "chars": 30,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 1977,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "category",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Material Symbols Outlined",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 2281,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Modern Örtüaltı & Sera Sistemleri",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 2369,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "category",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Material Symbols Outlined",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 2673,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Zirai Danışmanlık & Sertifikalı Tohum",
+      "words": 5,
+      "chars": 37,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 2761,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Nova Agro — Geleceğin Tarımını İleri Mühendislikle İnşa Ediyoruz",
+      "words": 9,
+      "chars": 64,
+      "lines": 5,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 3188,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "5 Temel Ziraat Mühendisliği & AgTech Hizmetimiz",
+      "words": 7,
+      "chars": 47,
+      "lines": 4,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4577,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "flight_takeoff",
+      "words": 1,
+      "chars": 14,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Material Symbols Outlined",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 5035,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "water_drop",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Material Symbols Outlined",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 5653,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "science",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Material Symbols Outlined",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 6219,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "thermostat",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Material Symbols Outlined",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 6762,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "verified",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Material Symbols Outlined",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 7328,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Teknoloji Partnerlerimiz & Referanslar",
+      "words": 4,
+      "chars": 38,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Work Sans",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 7978,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "AgTech Bilgi Merkezi & Makaleler",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Work Sans",
+      "weight": 800,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 8585,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "İletişim",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 10392,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "İletişim Bilgileri",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 10504,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "emailE-posta",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Material Symbols Outlined",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 10557,
+      "mixedFonts": [
+       "Work Sans",
+       "Material Symbols Outlined"
+      ],
+      "tag": "h4",
+      "kind": "heading"
+     },
+     {
+      "text": "phoneTelefon & WhatsApp",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Material Symbols Outlined",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 10639,
+      "mixedFonts": [
+       "Work Sans",
+       "Material Symbols Outlined"
+      ],
+      "tag": "h4",
+      "kind": "heading"
+     },
+     {
+      "text": "location_onAdres",
+      "words": 1,
+      "chars": 16,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Material Symbols Outlined",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 10787,
+      "mixedFonts": [
+       "Work Sans",
+       "Material Symbols Outlined"
+      ],
+      "tag": "h4",
+      "kind": "heading"
+     },
+     {
+      "text": "mapKonum",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Material Symbols Outlined",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 10928,
+      "mixedFonts": [
+       "Work Sans",
+       "Material Symbols Outlined"
+      ],
+      "tag": "h4",
+      "kind": "heading"
+     },
+     {
+      "text": "Nova Agro",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 22.4,
+      "vw": 5.7,
+      "font": "Work Sans",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.29,
+      "top": 12353,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "🧪",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 22.4,
+      "vw": 5.7,
+      "font": "Work Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 13092,
+      "tag": "span",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 36,
+     "maxLines": 5,
+     "over2Lines": 8,
+     "statements": 0,
+     "centered": 8,
+     "medianWords": 1,
+     "mixedFontHeadings": 4
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 0.93,
+       "mono": false
+      },
+      {
+       "family": "Material Symbols Outlined",
+       "share": 0.04,
+       "mono": true
+      },
+      {
+       "family": "Arial",
+       "share": 0.02,
+       "mono": false
+      },
+      {
+       "family": "monospace",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 4,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      24,
+      30,
+      32,
+      36,
+      40
+     ],
+     "sizeCount": 15,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 13.6,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 10.3
+     },
+     "measureChars": 36,
+     "max": {
+      "size": 40,
+      "vw": 10.3,
+      "font": "Work Sans",
+      "text": "Projelerimiz & Uzmanlık Alanlarımız"
+     },
+     "monoShare": 0.05,
+     "monoProseShare": 0.05,
+     "monoFamilies": [
+      "Material Symbols Outlined",
+      "monospace"
+     ],
+     "monoSamples": [
+      "arrow_forward",
+      "arrow_forward",
+      "arrow_forward",
+      "chevron_left",
+      "chevron_right",
+      "category"
+     ],
+     "microLabels": 4,
+     "microLabelShare": 0.007,
+     "microSamples": [
+      "Uzmanlık Alanlarımız",
+      "Hakkımızda",
+      "Hizmetlerimiz",
+      "Bilgi Merkezi"
+     ],
+     "upperShare": 0.01,
+     "centerShare": 0.16,
+     "smallText": 13
+    },
+    "eyebrows": [
+     {
+      "text": "Uzmanlık Alanlarımız",
+      "above": "Projelerimiz & Uzmanlık Alanlarımız",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": true,
+      "size": 12.5,
+      "top": 792
+     },
+     {
+      "text": "Hakkımızda",
+      "above": "Nova Agro — Geleceğin Tarımını İleri Müh",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": true,
+      "size": 12.5,
+      "top": 3146
+     },
+     {
+      "text": "Hizmetlerimiz",
+      "above": "5 Temel Ziraat Mühendisliği & AgTech Hiz",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": true,
+      "size": 12.5,
+      "top": 4535
+     },
+     {
+      "text": "Bilgi Merkezi",
+      "above": "AgTech Bilgi Merkezi & Makaleler",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": true,
+      "size": 12.5,
+      "top": 8544
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f8fafc",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.4,
+      "l": 0.98
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f9fafb",
+       "top": 760,
+       "hsl": {
+        "h": 210,
+        "s": 0.2,
+        "l": 0.98
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1129,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f8fafc",
+       "top": 7921,
+       "hsl": {
+        "h": 210,
+        "s": 0.4,
+        "l": 0.98
+       }
+      },
+      {
+       "color": "#1e293b",
+       "top": 12298,
+       "hsl": {
+        "h": 217,
+        "s": 0.33,
+        "l": 0.17
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#475569",
+       "share": 0.32
+      },
+      {
+       "color": "#374151",
+       "share": 0.14
+      },
+      {
+       "color": "#4b5563",
+       "share": 0.13
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.11
+      },
+      {
+       "color": "#0f172a",
+       "share": 0.08
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Detaylı Bilgi",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "arrow_forward",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 20,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Detaylı Bilgi",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "arrow_forward",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 20,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Detaylı Bilgi",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "arrow_forward",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 20,
+       "fg": "#16a34a",
+       "bg": "#ffffff"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 16,
+     "inHero": 1,
+     "radius": 8,
+     "height": 40,
+     "withShadow": 10,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 39,
+     "shadowOverlay": 2,
+     "shadowSamples": [
+      "span → rgba(0, 0, 0, 0.25) 0px 4px 14px 0px",
+      "span → rgba(0, 0, 0, 0.25) 0px 4px 14px 0px",
+      "span → rgba(0, 0, 0, 0.25) 0px 4px 14px 0px",
+      "a → rgba(0, 0, 0, 0.1) 0px 2px 8px 0px"
+     ],
+     "gradients": 3,
+     "scrims": 0,
+     "gradientSamples": [
+      "div → linear-gradient(to top, rgba(15, 23, 42, 0.94) 0%, rgba(15, 23, 42, 0.62) 48%, rgba(15, 23, 42, 0.38) 100%)",
+      "div → linear-gradient(to top, rgba(15, 23, 42, 0.94) 0%, rgba(15, 23, 42, 0.62) 48%, rgba(15, 23, 42, 0.38) 100%)",
+      "div → linear-gradient(to top, rgba(15, 23, 42, 0.94) 0%, rgba(15, 23, 42, 0.62) 48%, rgba(15, 23, 42, 0.38) 100%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 12,
+     "hairlineSamples": [
+      "header.header 390px",
+      "section#about.about-section 390px",
+      "div 292px",
+      "div 292px",
+      "div 292px"
+     ],
+     "outlinedBoxes": 15,
+     "dashed": 1,
+     "blurred": 3,
+     "roundedBoxes": 18,
+     "boxRadius": 16,
+     "squareMedia": 3,
+     "roundedMedia": 3,
+     "mediaRadius": 14,
+     "textShadow": 10,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 0.8
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": true,
+     "height": 71,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "material symbols outlined",
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 13466,
+    "margins": {
+     "left": 16,
+     "right": 17
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 85,
+      "height": 675,
+      "words": 37,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Modern Sera Otomasyonu & İklimlendirme",
+       "size": 32,
+       "tag": "h3"
+      },
+      "left": 8,
+      "right": 8,
+      "textLeft": 16,
+      "textRight": 16,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#categories.section",
+      "tag": "section",
+      "top": 760,
+      "height": 2305,
+      "words": 158,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Projelerimiz & Uzmanlık Alanlarımız",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 19,
+      "right": 19,
+      "textLeft": 19,
+      "textRight": 19,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section",
+      "tag": "section",
+      "top": 3065,
+      "height": 1438,
+      "words": 140,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Nova Agro — Geleceğin Tarımını İleri Mühendislikle",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 38,
+      "textLeft": 32,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.section",
+      "tag": "section",
+      "top": 4503,
+      "height": 3418,
+      "words": 442,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "5 Temel Ziraat Mühendisliği & AgTech Hizmetimiz",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#brands.section",
+      "tag": "section",
+      "top": 7921,
+      "height": 575,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Teknoloji Partnerlerimiz & Referanslar",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#articles.section",
+      "tag": "section",
+      "top": 8496,
+      "height": 1865,
+      "words": 139,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "AgTech Bilgi Merkezi & Makaleler",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 17,
+      "textLeft": 17,
+      "textRight": 17,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.section",
+      "tag": "section",
+      "top": 10360,
+      "height": 1938,
+      "words": 77,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "İletişim",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 48,
+      "right": 48,
+      "textLeft": 48,
+      "textRight": 50,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 12298,
+      "height": 1169,
+      "words": 124,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Nova Agro",
+       "size": 22,
+       "tag": "h3"
+      },
+      "left": 16,
+      "right": 26,
+      "textLeft": 16,
+      "textRight": 26,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Nova Agro",
+      "size": 20,
+      "top": 23,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 48,
+      "n": 21
+     },
+     {
+      "x": 32,
+      "n": 10
+     },
+     {
+      "x": 16,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 32,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "4 eyebrow/kicker label(s) above headings: \"Uzmanlık Alanlarımız\" (pill) above \"Projelerimiz & Uzmanlık Alanlarımız\"; \"Hakkımızda\" (pill) above \"Nova Agro — Geleceğin Tarımını İleri Müh\"; \"Hizmetlerimiz\" (pill) above \"5 Temel Ziraat Mühendisliği & AgTech Hiz\"; \"Bilgi Merkezi\" (pill) above \"AgTech Bilgi Merkezi & Makaleler\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "mono",
+   "width": 1440,
+   "message": "Monospace type outside code: Material Symbols Outlined, monospace — e.g. \"arrow_forward\", \"arrow_forward\", \"arrow_forward\", \"chevron_left\"",
+   "fix": "Set it in the text face. Monospace is for literal code inside <pre>/<code> only.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "4 tiny uppercase letter-spaced labels (e.g. \"Uzmanlık Alanlarımız\", \"Hakkımızda\", \"Hizmetlerimiz\", \"Bilgi Merkezi\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "emoji",
+   "width": 1440,
+   "message": "Emoji in the page: 🧪",
+   "fix": "Remove. Use words or real imagery.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "3 gradient fill(s): div → linear-gradient(to top, rgba(15, 23, 42, 0.94) 0%, rgba(15, 23, 42, 0.62) 48%, rgba(15, 23, 42, 0.38) 100%) | div → linear-gradient(to top, rgba(15, 23, 42, 0.94) 0%, rgba(15, 23, 42, 0.62) 48%, rgba(15, 23, 42, 0.38) 100%) | div → linear-gradient(to top, rgba(15, 23, 42, 0.94) 0%, rgba(15, 23, 42, 0.62) 48%, rgba(15, 23, 42, 0.38) 100%)",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "41 box-shadow(s) on elements at rest: span → rgba(0, 0, 0, 0.25) 0px 4px 14px 0px | span → rgba(0, 0, 0, 0.25) 0px 4px 14px 0px | span → rgba(0, 0, 0, 0.25) 0px 4px 14px 0px",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "text-shadow",
+   "width": 1440,
+   "message": "10 text-shadow(s).",
+   "fix": "Remove; fix legibility with a scrim or a different crop.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "button-fx",
+   "width": 1440,
+   "message": "Buttons with shadow/glow.",
+   "fix": "Flat fill, one colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "12 thin rule(s)/divider line(s): header.header 1440px | section#about.about-section 1440px | div 291px | div 291px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "14 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "dashed",
+   "width": 1440,
+   "message": "1 dashed/dotted border(s).",
+   "fix": "Remove unless it is a real drop zone.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "glass",
+   "width": 1440,
+   "message": "3 backdrop-blur surfaces.",
+   "fix": "One blurred sticky bar at most; glass cards are a tell.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "icon-cards",
+   "width": 1440,
+   "message": "1 row(s) of identical cards each topped with a small icon (5 cards).",
+   "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"Ana Sayfa\" 3.3:1 needs 4.5:1; \"Detaylı Bilgi\" 3.3:1 needs 4.5:1; \"arrow_forward\" 3.3:1 needs 4.5:1; \"Detaylı Bilgi\" 3.3:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-count",
+   "width": 1440,
+   "message": "3 typefaces in use (Work Sans, Material Symbols Outlined, Arial).",
+   "fix": "Two at most.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "15 different font sizes (12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 30, 36, 40, 56).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 13.6px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 3 picture(s) on the page (3 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "measure",
+   "width": 1440,
+   "message": "Longest paragraph runs about 100 characters per line.",
+   "fix": "Cap paragraphs at 45–75 characters (max-width: 60ch)."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "13 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 152px on the left, 171px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "WARN",
+   "id": "small-title",
+   "width": 1440,
+   "message": "The h1 is 24px (\"Nova Agro\").",
+   "fix": "Set the title at display size, or make the large text of the first screen the h1.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 1440,
+   "message": "The h1 is a bare name (\"Nova Agro\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 4 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "FAIL",
+   "id": "edge-text",
+   "width": 768,
+   "message": "7 text block(s) sit within 16px of the screen edge: \"Hassas Tarım & Akıllı Sulama O\" (0px from the left); \"IoT Toprak Nem Sensörleri ve Y\" (0px from the left); \"Toprak nemi ve mikroklima veri\" (0px from the left); \"arrow_forward\" (0px from the left)",
+   "fix": "Keep text inside the page margin (16–32px or more). Only display type deliberately bled past the edge may touch it."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "8 headline(s) wrap past two lines at 390px: \"Nova Agro — Zirai Drone & Multispektral Analiz\" → 3 lines (8 words, 32px); \"Modern Sera Otomasyonu & İklimlendirme\" → 3 lines (5 words, 32px); \"IoT Toprak Nem Sensörleri ve Yapay Zeka Destekli\" → 3 lines (10 words, 24px); \"RTK Destekli Hassas Otonom İlaçlama ve NDVI Bitk\" → 3 lines (10 words, 24px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "mixed-font-headline",
+   "width": 390,
+   "message": "4 headline(s) switch typeface or to italic mid-line (the \"one italic serif word\" move).",
+   "fix": "Set the whole headline in one face. Emphasis comes from the words."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\projects\\Nova-Industrial-Web\\docs\\screenshots\\desktop-fold.jpg",
+   "pages": [
+    "D:\\projects\\Nova-Industrial-Web\\docs\\screenshots\\desktop-page-01.jpg",
+    "D:\\projects\\Nova-Industrial-Web\\docs\\screenshots\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "D:\\projects\\Nova-Industrial-Web\\docs\\screenshots\\tablet-fold.jpg",
+   "pages": [
+    "D:\\projects\\Nova-Industrial-Web\\docs\\screenshots\\tablet-page-01.jpg",
+    "D:\\projects\\Nova-Industrial-Web\\docs\\screenshots\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\projects\\Nova-Industrial-Web\\docs\\screenshots\\mobile-fold.jpg",
+   "pages": [
+    "D:\\projects\\Nova-Industrial-Web\\docs\\screenshots\\mobile-page-01.jpg",
+    "D:\\projects\\Nova-Industrial-Web\\docs\\screenshots\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
