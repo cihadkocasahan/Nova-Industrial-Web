@@ -13,33 +13,34 @@
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Docker](https://img.shields.io/badge/Docker-Multi--Stage-2496ED?style=for-the-badge&logo=docker&logoColor=white)](docker-compose.yml)
 
-> **Geleceğin Tarımı İçin İleri AgTech & Ziraat Mühendisliği Çözümleri**  
-> RTK destekli zirai drone ilaçlama, multispektral NDVI bitki sağlığı haritalama, akıllı sulama otomasyonu, değişken oranlı gübreleme (VRA) ve modern sera iklim kontrol sistemlerini kurumsal bir mimaride buluşturan tam donanımlı web platformu ve yönetim kokpiti.
+> Kurumsal bir web sitesinin ihtiyaç duyduğu her şeyi tek çatı altında toplayan **full-stack CMS platformu**.  
+> Demo domain olarak AgTech / ziraat mühendisliği sektörü seçilmiştir; ancak mimari her sektöre uyarlanabilir kurumsal web + içerik yönetimi altyapısıdır.  
+> React 18 + TypeScript frontend, Express 5 + Drizzle ORM + MySQL 8 backend, tam yönetim paneli (kokpit), mock fallback katmanı ve Docker orkestrasyonu.
 
 ---
 
 ## 📸 Ekran Görüntüleri & Görsel Vitrin (Visual Showcase)
 
-### 🌾 1. Masaüstü Ana Sayfa & Hero Bölümü (Vitrin)
-*Sinematik görsel derinlik, sadeleştirilmiş editoryal tipografi ve yüksek kontrastlı eylem çağrısı (CTA).*
+### 🌾 1. Masaüstü Ana Sayfa & Hero Slider
+*Admin panelinden yönetilebilen hero section slider, hizmet kartları ve CTA butonları.*
 ![Nova Agro Hero Showcase](docs/screenshots/desktop-fold.jpg)
 
 ---
 
-### 🚜 2. AgTech Hizmetleri & Uzmanlık Projeleri
-*Aşırı yapay zeka klişelerinden (neon gölgeler, yapay gradyanlar) arındırılmış, mimari 60-30-10 renk dengesi ve net kart ritmi.*
+### 🗂️ 2. İçerik Sayfaları — Hizmetler, Kategoriler & Projeler
+*CMS'ten beslenen dinamik hizmet kartları, kategori detay sayfaları ve proje portföyü.*
 ![Nova Agro Hizmetler ve Projeler](docs/screenshots/desktop-page-01.jpg)
 
 ---
 
-### 🎛️ 3. Nova Agro Kokpit (Yönetim Paneli Dashboard)
-*Teknoloji markasına özel `/kokpit` rotası, canlı içerik istatistikleri, makale, hizmet, proje ve teklif yönetimi.*
+### 🎛️ 3. Yönetim Paneli (Kokpit Dashboard)
+*Canlı içerik istatistikleri; makale, hizmet, proje, teklif ve hero section'ları kod yazmadan yönet.*
 ![Nova Agro Kokpit Dashboard](docs/screenshots/dashboard.jpg)
 
 ---
 
-### 🧪 4. Tek Tıkla Demo Giriş Ekranı (Admin & Kokpit)
-*Backend veya MySQL kapalı olsa bile çalışan akıllı mock fallback katmanı ve tek tıkla otomatik form doldurma.*
+### 🧪 4. Demo Giriş & Mock Fallback
+*Backend kapalıyken bile çalışan mock katmanı; tek tıkla otomatik form doldurma ile sıfır sürtünmeli demo deneyimi.*
 ![Nova Agro Kokpit Giriş](docs/screenshots/admin-login.jpg)
 
 ---
@@ -136,23 +137,40 @@ npm run preview
 
 ---
 
-## 🌟 Öne Çıkan Özellikler
+## 🌟 Platform Özellikleri (CMS & Web Yönetim)
 
-### 1. 🌾 5 Temel Ziraat Mühendisliği & AgTech Hizmeti
-1. **Zirai Drone İlaçlama ve Multispektral Analiz:** 50L otonom DJI T50 filosu, santimetre hassasiyetinde RTK rotalama, NDVI bitki canlılık haritaları.
-2. **Hassas Tarım & Akıllı Sulama Otomasyonu:** IoT toprak nem sensörleri, meteoroloji istasyonları ve vana otomasyonu.
-3. **Toprak Analizi ve Değişken Oranlı Gübreleme (VRA):** GPS koordinatlı grid numune alımı, NPK/pH tespiti ve traktör terminalleri için ISOBUS haritaları.
-4. **Modern Sera Otomasyonu & İklimlendirme:** Buhar basıncı açığı (VPD) yönetimi, oransal sisleme ve topraksız fertigasyon.
-5. **Ruhsatlı Ziraat Mühendisliği & Danışmanlık:** T.C. Tarım Bakanlığı onaylı reçetelendirme ve Entegre Mücadele (IPM) takvimi.
+### 1. 🎛️ Tam Donanımlı Yönetim Paneli (Kokpit)
+Şirketin tüm web içeriğini kod yazmadan yönetebileceği admin arayüzü:
+- **Hero Section Yönetimi:** Slider içerikleri, görseller ve CTA butonlarını admin panelinden ekle/düzenle/sırala. Çoklu aktif slide desteği, otomatik sıralama.
+- **Hizmet & Kategori Yönetimi:** Hizmet kartlarını, açıklamalarını ve görsellerini CRUD ile yönet.
+- **Proje Portföyü:** Proje detay sayfaları, görseller ve etiketler; ziyaretçiler için filtrelenebilir galeri.
+- **Blog / Makale Editörü:** Quill tabanlı zengin metin editörü ile makale oluşturma, düzenleme ve yayınlama. DOMPurify ile XSS koruması.
+- **Marka & Partner Logoları:** Ortak / partner logolarını yükle, sırala, aktif/pasif yap.
+- **İletişim Formu Yönetimi:** Ziyaretçi form gönderimlerini admin panelinde görüntüle.
+- **SEO Anahtar Kelimeleri:** Her sayfa / kategori / proje için özel meta keywords yönetimi.
+- **Özel Rota Desteği:** Standart `/admin` yanında marka kimliğine özel `/kokpit` ve `/agro-kokpit` rotaları; sidebar prefix'ini koruyan akıllı yönlendirme.
 
-### 2. 📋 İnteraktif AgTech Teklif Modalı (`QuoteModal`)
-* İletişim sayfasından bağımsız, her hizmet kartından tek tıkla önseçimli açılan teklif motoru.
-* Tarımsal arazi birimi seçimi (**Dekar, Dönüm, Hektar, m²**), ürün deseni ve parsel konumu girişi.
-* Benzersiz referans kodu üretimi (Örn: `AGRO-2026-4821`).
+### 2. 🔌 Akıllı Mock Fallback Katmanı (Offline-First Demo)
+- Backend veya MySQL kapalıyken frontend tamamen çalışmaya devam eder.
+- `api.ts` içindeki şeffaf fallback: API çağrısı başarısız olursa `mockData.ts`'e düşer, kullanıcıya kesintisiz deneyim sunar.
+- Demo ortamlarında veya portfolyo sunumlarında sıfır bağımlılıkla çalışan canlı önizleme.
+- Tek tıkla demo girişi: giriş sayfasındaki "Formu Doldur" butonu otomatik credential doldurur.
 
-### 3. 🎛️ Özel Marka Kokpit Yönlendirmesi
-* Standart `/admin` rotasına ek olarak, firmanın kurumsal kimliğine uygun dinamik `/kokpit` ve `/agro-kokpit` rotaları.
-* Kokpit içi gezintide prefix'i koruyan akıllı breadcrumb ve sidebar yönlendirmesi.
+### 3. 📋 Teklif / Lead Toplama Motoru (`QuoteModal`)
+- Her hizmet kartından bağımsız olarak açılan, hizmeti otomatik önseçen modal form.
+- İletişim sayfasından decouple edilmiş tasarım — `#contact` anchor'a bağımlı değil.
+- Benzersiz referans kodu üretimi (`AGRO-2026-XXXX` formatı), yüksek hacimde idempotent çalışma.
+- Zod tabanlı frontend + backend çift katman validasyon.
+
+### 4. 🌐 TR/EN Çoklu Dil Desteği (i18next)
+- Sistem mesajları, buton etiketleri ve UI metinleri `i18next` + `react-i18next` ile yönetilir.
+- Tarayıcı dil algılama; `/tr` ve `/en` rota desteğine hazır altyapı.
+
+### 5. 🗺️ Dinamik Sitemap & SEO Altyapısı
+- Backend'de `sitemapController` ile veritabanından beslenen dinamik `sitemap.xml` üretimi.
+- Her kategoriye, projeye ve sayfaya özel `lastmod`, `changefreq` ve `priority`.
+- `react-helmet-async` ile her sayfada özelleştirilebilir `title`, `description`, Open Graph ve Twitter Card meta tagları.
+- Schema.org structured data footer entegrasyonu.
 
 ---
 
