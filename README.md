@@ -9,7 +9,7 @@ Demo domain olarak **AgTech / Ziraat Mühendisliği** sektörü seçilmiştir; a
 >
 > **Sorumluluk Reddi (Disclaimer):** Yazılım herhangi bir açık veya zımni garanti verilmeksizin **"olduğu gibi" (AS-IS)** sunulmaktadır. Geliştirici; sistemin kullanımından doğabilecek doğrudan veya dolaylı hiçbir zarardan sorumlu tutulamaz.
 
-[![E2E Tests](https://img.shields.io/badge/E2E%20Tests-23%2F23%20PASS%20(100%25)-15803d?style=for-the-badge&logo=checkmarx&logoColor=white)](#-kapsamlı-e2e-test-ve-kalite-güvencesi)
+[![E2E Tests](https://img.shields.io/badge/E2E%20Tests-Runner%20Ready-15803d?style=for-the-badge&logo=checkmarx&logoColor=white)](#-e2e-test-altyapısı)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
@@ -116,16 +116,16 @@ npm run preview
 
 ### 🎨 Frontend
 - **Framework & Araçlar:** React 18, TypeScript 5, Vite 5, React Router v6, i18next (TR/EN).
-- **Tasarım Sistemi:** Merkezi CSS token'ları ile yönetilen renk paleti, tipografi ve boşluklar. Sektör veya marka değiştiğinde sadece token dosyasını güncellemek yeterlidir.
+- **Tasarım Sistemi:** 247 ödüllü siteden damıtılmış **Anti-Slop design-taste-frontend** skill'i ile merkezi CSS token'ları. Ortalanmış 3 satır başlık + simetrik ikon kartı klişeleri yerine; editoryal asimetri, 60-30-10 renk kuralı (botanik koyu yeşil `#15803d` / nötr slate / açık krem zemin) ve içerikten gelen konsept. Sektör veya marka değiştiğinde sadece token dosyasını güncellemek yeterlidir.
 - **İçerik Özelleştirme:** Hero slider, hizmet kartları, proje portföyü, partner logoları ve footer bilgileri tamamen admin panelinden yönetilir — kod değişikliği gerekmez.
-- **Güvenlik:** `DOMPurify` ile zengin metin (Quill) çıktılarında XSS koruması; tüm form inputları Zod şemalarıyla doğrulanır.
+- **Güvenlik:** Backend Helmet CSP ile Quill inline style'larına izin veren yönetilmiş içerik güvenliği politikası; JWT + Bcrypt parola şifreleme.
 
 ### ⚙️ Backend & Veri Katmanı
 - **API Mimarisi:** Express 5 + TypeScript + ESM modül sistemi.
 - **ORM & Veritabanı:** Drizzle ORM + MySQL 8 — type-safe şema, otomatik migration ve seed mekanizması.
-- **Kimlik Doğrulama:** JWT + Bcrypt parola şifreleme.
-- **Güvenlik:** Helmet HTTP başlıkları, Express Rate Limiter, CORS yapılandırması, Zod input validasyonu.
-- **SEO:** Dinamik `sitemap.xml` controller, `robots.txt`, schema.org structured data.
+- **Güvenlik:** Helmet HTTP başlıkları (yönetilmiş CSP), Express Rate Limiter (3 kademeli), CORS yapılandırması (production'da zorunlu origin).
+- **Kimlik Doğrulama:** JWT + Bcrypt parola şifreleme; `JWT_SECRET` olmadan sunucu başlamaz (fail-fast).
+- **SEO:** Dinamik `sitemap.xml` controller, `robots.txt`, Helmet CSP.
 
 ---
 
@@ -164,14 +164,14 @@ npm run preview
 ### 5. 🗺️ Dinamik Sitemap & SEO Altyapısı
 
 - Veritabanından beslenen dinamik `sitemap.xml` üretimi (`sitemapController`).
-- `react-helmet-async` ile her sayfada özelleştirilebilir title, description, Open Graph ve Twitter Card.
-- Schema.org structured data footer entegrasyonu.
+- `robots.txt` ve arama motoru dostu URL yapısı.
+- Hero, hizmet ve proje sayfaları için slug tabanlı temiz URL mimarisi.
 
 ---
 
-## 🧪 E2E Test ve Kalite Güvencesi
+## 🧪 E2E Test Altyapısı
 
-4 kademeli **23 adet otomatik E2E test** — sıfır harici bağımlılık, standart Node.js ile çalışır:
+Proje, 4 kademeli bağımsız E2E test runner altyapısına sahiptir (`tests/e2e/runner.js`). Test runner; sıfır harici bağımlılık, standart Node.js ile çalışır:
 
 ```bash
 npm test
@@ -179,13 +179,15 @@ npm test
 node tests/e2e/runner.js --tier=1
 ```
 
-| Kademe | Kapsam | Test | Başarı |
-|---|---|:---:|:---:|
-| **Tier 1** | Özellik Kapsamı & Smoke | 7 | **%100** |
-| **Tier 2** | Sınır Durumları & Köşe Senaryoları | 7 | **%100** |
-| **Tier 3** | Çapraz Etkileşim & Entegrasyon | 5 | **%100** |
-| **Tier 4** | Gerçek Dünya Senaryoları & Regresyon | 4 | **%100** |
-| **TOPLAM** | | **23** | **%100** |
+| Kademe | Kapsam |
+|---|---|
+| **Tier 1** | Özellik Kapsamı & Smoke Test |
+| **Tier 2** | Sınır Durumları & Köşe Senaryoları |
+| **Tier 3** | Çapraz Etkileşim & Entegrasyon |
+| **Tier 4** | Gerçek Dünya Senaryoları & Regresyon |
+
+> [!NOTE]
+> Test runner altyapısı (`runner.js` + `helpers/test-utils.js`) mevcuttur; tier bazlı test senaryoları portfolyo geliştirme sürecinde yazılmıştır.
 
 ---
 
